@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Cardo);
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Cardo", serif;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+}
+.logo{
+    flex: 1 1 auto;
+    margin-left: 10%;
+    letter-spacing: -7px;
+    font-weight: 800;
+    font-family: "Monserrat", sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+}
+a{
+    margin: 15px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Monserrat", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+}
+a:hover{
+    color: #000;
+}
+#video{
+position: relative;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    margin-left: 20px;
+}
+.about-area,.bookings-area{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.packages-area,.contact-area{
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
